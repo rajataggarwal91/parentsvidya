@@ -1,0 +1,75 @@
+{"courses":[{
+	"course": "Computer Science",
+	"topics": [{
+		"name": "Basic Understanding of computers",
+		"level": 1,
+		"subtopics": [{
+			"name": "starting a laptop"
+		}, {
+			"name": "minimize and maximize applications"
+		}, {
+			"name": "Opening documents"
+		}, {
+			"name": "Opening documents"
+		},{
+			"name": "Understanding File System"
+		},{
+			"name": "Running applications"
+		},{
+			"name": "Search files and applications"
+		},{
+			"name": "Using text editor/word"
+		},{
+			"name": "Keyboard and mouse"
+		},{
+			"name": "Connect to Wi-Fi"
+		},{
+			"name": "Transferring files"
+		},{
+			"name": "Play songs and movies"
+		}]
+	},{
+		"name": "Internet Browsing",
+		"level": 2,
+		"subtopics": [{
+			"name": "Google search"
+		}, {
+			"name": "Watching videos online"
+		},{
+            "name":"How to open links"
+        },{
+            "name":"Email – create account, login and send and inbox, sign out"
+        },{
+            "name":"Social media – Facebook"
+        },{
+            "name":"Reading news and wiki pages"
+        },{
+            "name":"Play songs online"
+        },{
+            "name":"Video Chat"
+        }]
+	}]
+},
+{
+	"course": "English",
+	"topics": [{
+		"name": "Basic Understanding of computers",
+		"level": 1,
+		"subtopics": [{
+			"name": "starting a laptop"
+		}, {
+			"name": "minimize and maximize applications"
+		}, {
+			"name": "Opening documents"
+		}]
+	},{
+		"name": "Internet Browsing",
+		"level": 2,
+		"subtopics": [{
+			"name": "Google search"
+		}, {
+			"name": "Watching videos online"
+		}]
+	}]
+}]
+}

@@ -1,0 +1,39 @@
+    <div class="container-fluid"  ng-controller="myctrl" style="margin-top:0px">
+         <h1 style="font-size:60px;text-align:center">Parents Vidya</h1>
+    <div style="float:left; width:75%;overflow:hidden">
+       
+        <br>
+          <div class="list-group list-group-horizontal">
+                <a  class="list-group-item" ng-click="showDiv(1)" ng-class="{active: selected===1}">Today's video</a>
+                <a  class="list-group-item" ng-click="showDiv(2)" ng-class="{active: selected===2}">Recent Sessions</a>
+                <a class="list-group-item" ng-click="showDiv(3)" ng-class="{active: selected===3}">What Parents say</a>
+            </div>
+        <div>
+        <div ng-show="divVideo">
+	       <iframe width="560" height="315" src="https://www.youtube.com/embed/B7r7YY_EO0A" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div ng-show="divSession">
+            <p>current sessions</p>
+        </div>
+        <div ng-show="divFeedback">
+        <p>Feedback</p>
+        </div>
+        </div>
+    </div>
+        <div style="float:left; width:25%;overflow:hidden">
+            <div style="margin-left:10px">
+                <h2>To know more</h2>
+                <h4>Call : <b>999-999-9999</b></h4>
+                <h4>Mail : <b>ab@xyz.com</b></h4>
+                <h4>Visit: <b>1905, East University Drive, Tempe, AZ</b></h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.065522050523!2d-111.90668858533604!3d33.421536080782275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0858427b4717%3A0x733dce94485d1bab!2s1905+E+University+Dr%2C+Tempe%2C+AZ+85281!5e0!3m2!1sen!2sus!4v1470445582371" width="100%" height="30%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <br>
+                <br>
+                <a href="https://www.facebook.com/parentsvidya"  target="_blank"><img src="images/find_on_fb.png"></a>
+            </div>
+        </div>
+</div>
+
+
+           
+
